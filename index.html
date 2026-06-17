@@ -1,102 +1,102 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Modern Roblox — играй, создавай, вдохновляй</title>
-  
-  <!-- Подключаем CSS -->
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Roblox — играй, создавай, вдохновляй</title>
+    
+    <!-- Подключаем отдельный CSS файл -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- ===== ШАПКА / НАВИГАЦИЯ ===== -->
-  <header class="header">
-    <div class="container header__inner">
-      <div class="logo">
-        <span class="logo__icon">⬡</span>
-        <span class="logo__text">ROBLOX<span class="logo__accent">.mod</span></span>
-      </div>
-      <nav class="nav">
-        <a href="#about" class="nav__link">О нас</a>
-        <a href="#features" class="nav__link">Возможности</a>
-        <a href="#code" class="nav__link">Код</a>
-        <a href="#community" class="nav__link">Сообщество</a>
-      </nav>
-      <button class="btn btn--glow" id="themeToggle">✨ Сменить фон</button>
-    </div>
-  </header>
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="logo">
+                <span class="logo__icon">⬡</span>
+                <span class="logo__text">ROBLOX<span class="logo__accent">.mod</span></span>
+            </div>
+            <nav class="nav">
+                <a href="#about" class="nav__link">О нас</a>
+                <a href="#features" class="nav__link">Возможности</a>
+                <a href="#code" class="nav__link">Код</a>
+                <a href="#community" class="nav__link">Сообщество</a>
+            </nav>
+            <button class="btn btn--glow" id="themeToggle">✨ Сменить фон</button>
+        </div>
+    </header>
 
-  <!-- ===== ГЕРОЙ ===== -->
-  <section class="hero" id="about">
-    <div class="container hero__inner">
-      <div class="hero__content">
-        <h1 class="hero__title">
-          <span class="neon">Играй</span> <br />
-          <span class="neon neon--purple">Создавай</span> <br />
-          <span class="neon neon--blue">Вдохновляй</span>
-        </h1>
-        <p class="hero__desc">
-          Roblox — это не просто игра. Это бесконечная вселенная, где каждый
-          может стать разработчиком, дизайнером или геймером. Присоединяйся к
-          миллионам творцов!
-        </p>
-        <div class="hero__actions">
-          <button class="btn btn--primary btn--large" id="playBtn">▶ Начать игру</button>
-          <button class="btn btn--secondary btn--large" id="codeBtn">💻 Показать код</button>
+    <!-- ГЕРОЙ -->
+    <section class="hero" id="about">
+        <div class="container hero__inner">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    <span class="neon">Играй</span> <br />
+                    <span class="neon neon--purple">Создавай</span> <br />
+                    <span class="neon neon--blue">Вдохновляй</span>
+                </h1>
+                <p class="hero__desc">
+                    Roblox — это не просто игра. Это бесконечная вселенная, где каждый
+                    может стать разработчиком, дизайнером или геймером. Присоединяйся к
+                    миллионам творцов!
+                </p>
+                <div class="hero__actions">
+                    <button class="btn btn--primary btn--large" id="playBtn">▶ Начать игру</button>
+                    <button class="btn btn--secondary btn--large" id="codeBtn">💻 Показать код</button>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__badge">
+                    <span class="hero__badge-number">+200M</span>
+                    <span class="hero__badge-label">игроков</span>
+                </div>
+                <div class="hero__cube"></div>
+                <div class="hero__orb"></div>
+            </div>
         </div>
-      </div>
-      <div class="hero__visual">
-        <div class="hero__badge">
-          <span class="hero__badge-number">+200M</span>
-          <span class="hero__badge-label">игроков</span>
-        </div>
-        <div class="hero__cube"></div>
-        <div class="hero__orb"></div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== ОСОБЕННОСТИ ===== -->
-  <section class="features" id="features">
-    <div class="container">
-      <h2 class="section-title"><span class="neon">⚡ Возможности</span> Roblox</h2>
-      <div class="features__grid">
-        <div class="feature-card" data-delay="0">
-          <div class="feature-card__icon">🎮</div>
-          <h3 class="feature-card__title">Тысячи миров</h3>
-          <p class="feature-card__desc">От гонок до RPG — каждый день миллионы новых игр.</p>
+    <!-- ОСОБЕННОСТИ -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title"><span class="neon">⚡ Возможности</span> Roblox</h2>
+            <div class="features__grid">
+                <div class="feature-card">
+                    <div class="feature-card__icon">🎮</div>
+                    <h3 class="feature-card__title">Тысячи миров</h3>
+                    <p class="feature-card__desc">От гонок до RPG — каждый день миллионы новых игр.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">🛠️</div>
+                    <h3 class="feature-card__title">Roblox Studio</h3>
+                    <p class="feature-card__desc">Мощный редактор для создания собственных 3D-миров.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">👥</div>
+                    <h3 class="feature-card__title">Сообщество</h3>
+                    <p class="feature-card__desc">Общайся, строй кланы и делись своими проектами.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">💎</div>
+                    <h3 class="feature-card__title">Экономика</h3>
+                    <p class="feature-card__desc">Зарабатывай Robux и создавай уникальные предметы.</p>
+                </div>
+            </div>
         </div>
-        <div class="feature-card" data-delay="150">
-          <div class="feature-card__icon">🛠️</div>
-          <h3 class="feature-card__title">Roblox Studio</h3>
-          <p class="feature-card__desc">Мощный редактор для создания собственных 3D-миров.</p>
-        </div>
-        <div class="feature-card" data-delay="300">
-          <div class="feature-card__icon">👥</div>
-          <h3 class="feature-card__title">Сообщество</h3>
-          <p class="feature-card__desc">Общайся, строй кланы и делись своими проектами.</p>
-        </div>
-        <div class="feature-card" data-delay="450">
-          <div class="feature-card__icon">💎</div>
-          <h3 class="feature-card__title">Экономика</h3>
-          <p class="feature-card__desc">Зарабатывай Robux и создавай уникальные предметы.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== БЛОК КОДА ===== -->
-  <section class="code-section" id="code">
-    <div class="container">
-      <h2 class="section-title"><span class="neon">⌨️ Строчки</span> кода Lua</h2>
-      <div class="code-wrapper">
-        <div class="code-header">
-          <span class="code-dot red"></span>
-          <span class="code-dot yellow"></span>
-          <span class="code-dot green"></span>
-          <span class="code-filename">game.lua</span>
-        </div>
-        <pre class="code-block" id="luaCodeBlock">
+    <!-- БЛОК КОДА -->
+    <section class="code-section" id="code">
+        <div class="container">
+            <h2 class="section-title"><span class="neon">⌨️ Строчки</span> кода Lua</h2>
+            <div class="code-wrapper">
+                <div class="code-header">
+                    <span class="code-dot red"></span>
+                    <span class="code-dot yellow"></span>
+                    <span class="code-dot green"></span>
+                    <span class="code-filename">game.lua</span>
+                </div>
+                <pre class="code-block" id="luaCodeBlock">
 <span class="comment">-- Пример скрипта Roblox (Lua)</span>
 <span class="keyword">local</span> <span class="variable">player</span> = <span class="function">game.Players.LocalPlayer</span>
 <span class="keyword">local</span> <span class="variable">character</span> = <span class="variable">player</span>.<span class="function">CharacterAdded</span>:<span class="function">Wait</span>()
@@ -108,52 +108,52 @@
 <span class="keyword">end</span>
 
 <span class="variable">script</span>.<span class="property">Parent</span>.<span class="property">Touched</span>:<span class="function">Connect</span>(<span class="variable">onTouch</span>)
-        </pre>
-        <button class="btn btn--copy" id="copyCodeBtn">📋 Копировать код</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== СООБЩЕСТВО ===== -->
-  <section class="community" id="community">
-    <div class="container community__inner">
-      <h2 class="section-title"><span class="neon">🌐 Сообщество</span> Roblox</h2>
-      <p class="community__text">
-        Более 70 миллионов активных создателей и игроков по всему миру. 
-        Ты можешь стать частью этой экосистемы уже сегодня.
-      </p>
-      <div class="community__stats">
-        <div class="stat-item">
-          <span class="stat-number" data-target="200">0</span>
-          <span class="stat-label">млн игроков</span>
+                </pre>
+                <button class="btn btn--copy" id="copyCodeBtn">📋 Копировать код</button>
+            </div>
         </div>
-        <div class="stat-item">
-          <span class="stat-number" data-target="40">0</span>
-          <span class="stat-label">млн игр</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-number" data-target="15">0</span>
-          <span class="stat-label">млн разработчиков</span>
-        </div>
-      </div>
-      <button class="btn btn--primary btn--large" id="communityBtn">Присоединиться</button>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== ФУТЕР ===== -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <p class="footer__copy">© 2026 Modern Roblox. Все права защищены.</p>
-      <div class="footer__social">
-        <span>⬡</span>
-        <span>✦</span>
-        <span>◈</span>
-        <span>◆</span>
-      </div>
-    </div>
-  </footer>
+    <!-- СООБЩЕСТВО -->
+    <section class="community" id="community">
+        <div class="container community__inner">
+            <h2 class="section-title"><span class="neon">🌐 Сообщество</span> Roblox</h2>
+            <p class="community__text">
+                Более 70 миллионов активных создателей и игроков по всему миру. 
+                Ты можешь стать частью этой экосистемы уже сегодня.
+            </p>
+            <div class="community__stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="200">0</span>
+                    <span class="stat-label">млн игроков</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="40">0</span>
+                    <span class="stat-label">млн игр</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="15">0</span>
+                    <span class="stat-label">млн разработчиков</span>
+                </div>
+            </div>
+            <button class="btn btn--primary btn--large" id="communityBtn">Присоединиться</button>
+        </div>
+    </section>
 
-  <!-- Подключаем JavaScript -->
-  <script src="script.js"></script>
+    <!-- ФУТЕР -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__copy">© 2026 Modern Roblox. Все права защищены.</p>
+            <div class="footer__social">
+                <span>⬡</span>
+                <span>✦</span>
+                <span>◈</span>
+                <span>◆</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключаем отдельный JavaScript файл -->
+    <script src="script.js"></script>
 </body>
 </html>
